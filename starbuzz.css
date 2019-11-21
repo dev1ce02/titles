@@ -17,10 +17,11 @@ body {
   width:270px;
   height:120px;
   display: inline-block;
-  background-image: url(./images/header-2.jpg);
+  background-image: url(./images/header.gif);
   background-repeat: no-repeat;
   background-color: #675c47;
-  margin-left:250px;
+  background-position: -520px;
+  float:right;
 }
 
 #main {
@@ -31,7 +32,7 @@ body {
   vertical-align:   top;
 }
 
-#sidebar {
+aside {
   display:          table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
@@ -39,7 +40,7 @@ body {
   vertical-align:   top;
 }
 
-#footer {
+footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
@@ -71,7 +72,7 @@ a:visited {
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
 }
-#hyx {
+#ntj {
   width:            900px;
   padding-top:      5px;
   padding-bottom:   5px;
@@ -105,10 +106,10 @@ border-spacing: 10px;
   position: fixed;
   top:350px;
   left:-220px;
-  animation: 2s hyx linear ;
+  animation: 2s ntj linear ;
   animation-fill-mode:forwards;
 }
-@keyframes hyx{
+@keyframes ntj{
   from{left:-220px;}
   10%{left:-200px;}
   20%{left:-180px;}
@@ -116,7 +117,7 @@ border-spacing: 10px;
   50%{left:-120px;}
   to{left:-20px;}
 }
-#jiangbei{
+#award{
   position: fixed;
   top:30px;
   left:900px;
